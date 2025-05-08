@@ -155,7 +155,7 @@ int main()
         break;
         case '4':
         {
-            (mhs.listEmpty() == true)
+           if (mhs.listEmpty() == true)
             {
                 cout << "\nList Kosong\n";
                 break;
@@ -183,7 +183,7 @@ int main()
         break;
         default:
         {
-            cout <, "Pilih salah !." << endl;
+            cout << "Pilih salah !." << endl;
         }
         break;
         }
